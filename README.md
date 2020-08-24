@@ -5,3 +5,6 @@
 [![stackoverflow](https://img.shields.io/badge/stackoverflow-cohan-orange?style=for-the-badge&logo=stackoverflow&logoColor=white)](https://stackoverflow.com/users/3447515/cohan)
 [![linkedin](https://img.shields.io/badge/LinkedIn-Brian%20Cohan%20P.E.-orange?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/briandcohan/)
 [![twitter](https://img.shields.io/badge/twitter-@BrianDCohan-orange?style=for-the-badge&logo=twitter&logoColor=white)](http://twitter.com/briandcohan)
+
+[![github stats](https://github-readme-stats.vercel.app/api?username=briancohan&count_private=true&show_icons=true&theme=darcula)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=briancohan&theme=darcula&hide=jupyter%20notebook&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
