@@ -8,4 +8,4 @@
 [![strava](https://img.shields.io/badge/strava-Brian%20Cohan-orange?style=for-the-badge&logo=strava&logoColor=white)](https://www.strava.com/athletes/38661281)
 
 [![github stats](https://github-readme-stats.vercel.app/api?username=briancohan&count_private=true&show_icons=true&theme=darcula)](https://github.com/anuraghazra/github-readme-stats)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=briancohan&theme=darcula&hide=jupyter%20notebook&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=briancohan&theme=darcula&hide=jupyter%20notebook&)](https://github.com/anuraghazra/github-readme-stats)
