@@ -9,8 +9,16 @@ packages = [{include = "briancohan", from = "src"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 flask = "^3.0.0"
+python-dotenv = "^1.0.0"
 
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.1.13"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
+dev = "briancohan.main:app.run"
