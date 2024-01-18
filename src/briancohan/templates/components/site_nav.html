@@ -1,8 +1,9 @@
 <div class="border-b border-orange-500 p-3 mb-4">
     <div class="max-w-7xl mx-auto">
         <ul class="flex gap-4">
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
+            {% for entry in SITE_NAV %}
+            <li><a href="{{ url_for(entry.url_for) }}">{{entry.name}}</a></li>
+            {% endfor %}
         </ul>
     </div>
 </div>
