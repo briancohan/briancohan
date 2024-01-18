@@ -22,4 +22,4 @@ build-backend = "poetry.core.masonry.api"
 
 
 [tool.poetry.scripts]
-dev = "briancohan.main:app.run"
+dev = "briancohan:app.run"
