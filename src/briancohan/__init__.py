@@ -12,7 +12,7 @@ if not os.environ.get("FLASK_ENV") == "development":
 
 @app.route("/")
 def index():
-    return render_template("index.html", env=os.environ.get("FLASK_ENV", "dev"))
+    return render_template("index.html")
 
 
 @app.route("/about")
