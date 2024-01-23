@@ -1,6 +1,6 @@
 import os
 
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 
 from .config import Config
 
@@ -15,6 +15,7 @@ if not os.environ.get("FLASK_ENV") == "development":
 app.jinja_env.globals.update(
     {
         "SITE_NAV": Config.SITE_NAVIGATION,
+        "REQUEST": request,
     }
 )
 
