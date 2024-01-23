@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./src/**/*.{html,ts,js}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero-pattern': "url('/static/images/2024-01-19_10-28-45_8544.png')",
+      }
+    },
   },
   plugins: [
     require('@tailwindcss/typography'),

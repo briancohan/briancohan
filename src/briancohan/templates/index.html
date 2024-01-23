@@ -4,6 +4,22 @@
 <meta name="description" content="Brian Cohan: Pythonista and Data Analyst">
 {% endblock %}
 
-{% block content %}
-<h1>Brian Cohan</h1>
+{% block body %}
+<section id="hero" class="relative w-full min-h-svh">
+    <div class="absolute w-full bg-center bg-cover min-h-svh bg-hero-pattern brightness-50"></div>
+    <div class="absolute w-full">{% include 'components/site_nav.html' %}</div>
+
+    <div
+        class="absolute flex flex-col w-3/4 gap-8 transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 md:flex-row md:w-1/2 ">
+        <img src="{{ url_for('static', filename='images/briancohan.png') }}" alt="Brian Cohan"
+            class="w-full md:order-1 basis-1 grow ">
+        <div class="flex flex-col items-center justify-center gap-4 py-8 basis-1 grow">
+            <h1 class="text-5xl font-bold text-center md:text-7xl">Brian Cohan</h1>
+            <h2 class="text-2xl font-semibold text-center">Pythonista &amp; Data Analyst</h2>
+        </div>
+    </div>
+
+    <iconify-icon icon="fluent:chevron-down-28-filled"
+        class="absolute text-6xl transform -translate-x-1/2 bottom-8 left-1/2 animate-bounce"></iconify-icon>
+</section>
 {% endblock %}

@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div class="border-b border-orange-500 mb-4">
+    {% include 'components/site_nav.html' %}
+</div>
+<main class="max-w-7xl mx-auto">
+    {% block content %}
+    {% endblock %}
+</main>
+{% endblock %}
